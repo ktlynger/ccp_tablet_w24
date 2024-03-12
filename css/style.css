@@ -340,4 +340,10 @@ h1.pet-name {
     .recipe h1 {
         text-align: left;
     }
+
+    .destination {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
