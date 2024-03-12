@@ -312,3 +312,32 @@ h1.pet-name {
 .bacon-gallery {
     text-align: center;
 }
+
+
+@media screen and (min-width: 801px) {
+    
+    nav ul {
+      text-align: left;
+    }
+
+    .dog {
+       display: grid;
+       grid-template-columns: 1fr 1fr; 
+       align-items: center;
+    }
+
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .recipe-intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .recipe h1 {
+        text-align: left;
+    }
+}
